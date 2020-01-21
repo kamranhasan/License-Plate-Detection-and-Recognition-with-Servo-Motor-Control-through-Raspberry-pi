@@ -1,1 +1,3 @@
 # License-Plate-Detection-and-Recognition-with-Servo-Motor-Control-through-Raspberry-pi
+This project is implemented on a Raspberry pi in which it detects the license plate of a vehicle(a car to be specific) and takes a snapshot of it. The algorithm further recognizes the characters over the plate and stores in a separate text file called "data.txt". It matches the recognized plate with pre-defined characters stored in the code, to check if the vehicle is allowed to enter or not. If it seems to be true, the pi grants the vehicle permissoion to pass and denied otherwise. A srvo is connected to act as a barricade which rotates 90 degre for 10 sec after the permission is granted by the pi.
+Hope,this articulates the working of the program!
